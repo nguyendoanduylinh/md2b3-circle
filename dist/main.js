@@ -1,0 +1,14 @@
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+const cirle_1 = require("./cirle");
+const cylinder_1 = require("./cylinder");
+let circle = new cirle_1.Circle(20, "Yellow");
+let cylinder = new cylinder_1.Cylinder(10, "Red", 10);
+console.log(circle._radius);
+console.log(circle._color);
+console.log(circle._area);
+console.log(cylinder._radius);
+console.log(cylinder._color);
+console.log(cylinder._area);
+console.log(cylinder._height);
+console.log(cylinder._volume);
